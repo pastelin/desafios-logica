@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6210556-4c50-44e2-9756-833df1918926" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/CompareLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/DeleteANode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/DeleteDuplicateValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/FindMergePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/GetNodeAtSpesificPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/InsertNodeAtSpecificPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/MergeTwoSortedLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/PrintElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/PrintInReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/log4j/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/log4j/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manejofecha/CalendarUso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/output/formatting/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/output/formatting/OutputFormatting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/DataStructures.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/CompareLinkedList$SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/CompareLinkedList$SinglyLinkedListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/CompareLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/Cylinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/DeleteANode$Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/DeleteANode$SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/DeleteANode$SinglyLinkedListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/DeleteANode$SinglyLinkedListPrintHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/DeleteANode$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/DeleteANode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/DeleteDuplicateValue$SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/DeleteDuplicateValue$SinglyLinkedListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/DeleteDuplicateValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/FindMergePoint$SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/FindMergePoint$SinglyLinkedListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/FindMergePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/GetNodeAtSpesificPosition$SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/GetNodeAtSpesificPosition$SinglyLinkedListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/GetNodeAtSpesificPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/InsertNodeAtSpecificPosition$SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/InsertNodeAtSpecificPosition$SinglyLinkedListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/InsertNodeAtSpecificPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/MergeTwoSortedLinkedList$SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/MergeTwoSortedLinkedList$SinglyLinkedListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/MergeTwoSortedLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/PrintElements$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/PrintElements$SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/PrintElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/PrintInReverse$SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/PrintInReverse$SinglyLinkedListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/PrintInReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/ReverseLinkedList$SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/ReverseLinkedList$SinglyLinkedListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/linkedlist/ReverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/out/production/DataStructures/com/manejofecha/CalendarUso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/CompareLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/DeleteANode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/DeleteDuplicateValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/FindMergePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/GetNodeAtSpesificPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/InsertNodeAtSpecificPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/MergeTwoSortedLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/PrintElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/PrintInReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/linkedlist/ReverseLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/manejofecha/CalendarUso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackerrank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2519AlyqmClKHOdPzEkIneaMoFJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.log4j.Main" />
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.log4j.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.output.formatting.Main" />
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.output.formatting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6210556-4c50-44e2-9756-833df1918926" name="Changes" comment="" />
+      <created>1644683583888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644683583888</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
