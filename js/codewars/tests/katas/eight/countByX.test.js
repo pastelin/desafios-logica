@@ -1,4 +1,4 @@
-import { countBy } from '../../src/katas-eight/counntByX';
+import { countBy } from '../../../src/katas/eight/counntByX';
 
 describe('Probando archivo countByX', () => {
     
