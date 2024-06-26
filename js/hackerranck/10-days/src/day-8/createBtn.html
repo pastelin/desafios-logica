@@ -14,18 +14,17 @@
     </head>
     <body>
         <script>
-            let counter = 0;
-            let button = document.createElement('button');
-            button.id = 'btn';
-            button.innerText = counter;
-            document.body.appendChild(button);
+            var btn = document.createElement('button');
 
-            let elementBtn = document.querySelector('#btn');
+            btn.innerHTML = '0';
+            btn.id = 'btn';
+            btn.className = 'button';
 
-            elementBtn.addEventListener('click', (e) => {
-                counter++;
-                e.target.innerText = counter;
-            });
+            document.body.appendChild(btn);
+
+            btn.onclick = function () {
+                btn.innerHTML++;
+            };
         </script>
     </body>
 </html>
