@@ -1,4 +1,4 @@
-package com.codewars.seven.katas;
+package com.codewars.seven;
 
 public class Covfefe {
 

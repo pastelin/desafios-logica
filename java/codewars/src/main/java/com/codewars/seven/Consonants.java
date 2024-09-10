@@ -1,4 +1,4 @@
-package com.codewars.seven.katas;
+package com.codewars.seven;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
