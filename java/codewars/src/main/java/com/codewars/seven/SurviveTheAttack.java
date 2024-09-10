@@ -1,4 +1,4 @@
-package com.codewars.seven.katas;
+package com.codewars.seven;
 
 import java.util.stream.IntStream;
 import static java.util.stream.IntStream.of;

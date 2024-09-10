@@ -1,7 +1,6 @@
-package com.codewars.eight.katas;
+package com.codewars.eight;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class CountByXTests {
 

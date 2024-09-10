@@ -1,4 +1,4 @@
-package com.codewars.eight.katas;
+package com.codewars.eight;
 
 import org.junit.jupiter.api.Test;
 
