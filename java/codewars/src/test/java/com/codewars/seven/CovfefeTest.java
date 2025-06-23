@@ -2,6 +2,8 @@ package com.codewars.seven;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 class CovfefeTest {
 
     @Test
