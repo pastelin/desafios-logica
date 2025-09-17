@@ -1,19 +1,32 @@
 package com.codewars.six;
 
-// Given a list of positive integers, determine the minimum non-negative integer that needs to be inserted so that the sum of all elements becomes a prime number.
-public class TransformToPrime {
+public class BeforeAfterPrimes {
 
-    public static int minimumNumber(int[] numbers) {
-        int sum = 0;
-        for (int number : numbers) {
-            sum += number;
+    /**
+     * Finds the prime number immediately before and after the given number.
+     * @param num The number to search around.
+     * @return An array of two longs: [prime_before, prime_after].
+     */
+    public static long[] primeBefAft(long num) {
+        long[] result = new long[2];
+
+        // Search downwards for the prime before num
+        for (long i = num - 1; i > 1; i--) {
+            if (isPrime(i)) {
+                result[0] = i;
+                break;
+            }
         }
 
-        int i = 0;
-        while (!isPrime(sum + i)) {
-            i++;
+        // Search upwards for the prime after num
+        for (long i = num + 1; ; i++) {
+            if (isPrime(i)) {
+                result[1] = i;
+                break;
+            }
         }
-        return i;
+
+        return result;
     }
 
     /**
@@ -21,7 +34,7 @@ public class TransformToPrime {
      * @param n The number to check.
      * @return true if n is prime, false otherwise.
      */
-    private static boolean isPrime(int n) {
+    private static boolean isPrime(long n) {
         // Step 1: Handle base cases and even numbers.
         if (n <= 1) {
             return false; // 1 and negative numbers are not prime.
@@ -45,7 +58,4 @@ public class TransformToPrime {
         return true; // No divisors found, it's prime.
     }
 
-    public static void main(String[] args) {
-        System.out.println(minimumNumber(new int[]{3, 1, 2}));
-    }
 }
