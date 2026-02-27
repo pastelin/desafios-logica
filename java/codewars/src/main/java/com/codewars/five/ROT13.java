@@ -1,53 +1,83 @@
 package com.codewars.five;
 
-/*
- * How can you tell an extrovert from an introvert at NSA?
- * Va gur ryringbef, gur rkgebireg ybbxf ng gur BGURE thl'f fubrf.
-
- * I found this joke on USENET, but the punchline is scrambled. Maybe you can decipher it?
- * According to Wikipedia, ROT13 is frequently used to obfuscate jokes on USENET.
-
- * For this task you're only supposed to substitute characters.
- * Not spaces, punctuation, numbers, etc.
-
- * Test examples:
- * "EBG13 rknzcyr." -> "ROT13 example."
- * "This is my first ROT13 excercise!" -> "Guvf vf zl svefg EBG13 rkprepvfr!"
+/**
+ * Implementa el cifrado ROT13 (Rotation 13).
  *
- * */
+ * ROT13 es una forma simple de cifrado por sustitución que reemplaza una letra
+ * por la que se encuentra 13 posiciones adelante en el alfabeto.
+ *
+ * Características:
+ * - Es un cifrado de sustitución monoalfabético
+ * - Es su propio inverso: aplicar ROT13 dos veces devuelve el texto original
+ * - Usado frecuentemente en USENET para ofuscar chistes y spoilers
+ * - Preserva espacios, puntuación, números y diacríticos
+ *
+ * Ejemplos:
+ *   "EBG13 example."        → "ROT13 rknzcyr."
+ *   "This is my first ROT13" → "Guvf vf zl svefg EBG13"
+ *   "The quick brown fox"   → "Gur dhvpx oebja sbk"
+ *
+ * @author Codewars Level 5
+ * @see <a href="https://en.wikipedia.org/wiki/ROT13">ROT13 en Wikipedia</a>
+ */
 public class ROT13 {
 
-    /*
-    * The rot13 method is designed to perform the ROT13 substitution cipher on a given string.
-    * This cipher replaces each letter with the letter 13 positions after it in the alphabet, wrapping around if necessary.
-    * The method takes a single parameter, message, which is the string to be encoded.
-    * */
+    /**
+     * Aplica la transformación ROT13 a un mensaje.
+     *
+     * Algoritmo:
+     * 1. Recorre cada carácter del mensaje
+     * 2. Si es una letra (a-z, A-Z):
+     *    a. Determina la base ('a' para minúsculas, 'A' para mayúsculas)
+     *    b. Calcula el desplazamiento: (c - base + 13) % 26
+     *    c. Convierte de vuelta a carácter
+     * 3. Si no es letra o es diacrítico: se mantiene sin cambios
+     *
+     * Complejidad temporal: O(n) donde n es la longitud del mensaje
+     * Complejidad espacial: O(n) para el StringBuilder
+     *
+     * @param message el texto a cifrar con ROT13
+     * @return el mensaje cifrado con ROT13
+     */
     public static String rot13(String message) {
-        // First, a StringBuilder named result is initialized to build the encoded string:
+        // Inicializa un StringBuilder para construir el resultado de forma eficiente
         StringBuilder result = new StringBuilder();
 
-        // The method then iterates over each character in the input string using a for loop:
+        // Itera sobre cada carácter del mensaje
         for (char c : message.toCharArray()) {
 
-            // Within the loop, it checks if the character is a letter and not a diacritic using the Character.isLetter method and a custom isDiacritic method:
+            // Verifica si es una letra válida (no un diacrítico)
             if (Character.isLetter(c) && !isDiacritic(c)) {
-                // If the character is a letter and not a diacritic, it determines the base character ('a' for lowercase and 'A' for uppercase) and calculates the ROT13 transformation:
+                // Determina si es mayúscula o minúscula para usar la base correcta
                 char base = Character.isLowerCase(c) ? 'a' : 'A';
+                // Aplica ROT13: desplaza 13 posiciones, wraps around con módulo 26
                 result.append((char) ((c - base + 13) % 26 + base));
             } else {
-                // If the character is not a letter or is a diacritic, it is appended to the result without modification:
+                // Caracteres no-letra se mantienen sin cambios
                 result.append(c);
             }
         }
 
-        // Finally, the method returns the encoded string:
+        // Retorna el mensaje transformado
         return result.toString();
     }
 
-    // he isDiacritic method checks if a character is one of the specified diacritic characters by searching for it in a predefined string:
+    /**
+     * Verifica si un carácter es un diacrítico (acento).
+     *
+     * Los diacríticos no deben transformarse con ROT13 para preservar
+     * la integridad de caracteres en otros idiomas.
+     *
+     * Actualmente soporta: äëïöüÄËÏÖÜ
+     *
+     * @param c el carácter a verificar
+     * @return true si es un diacrítico, false en caso contrario
+     */
     private static boolean isDiacritic(char c) {
         return "äëïöüÄËÏÖÜ".indexOf(c) >= 0;
     }
+
+}
 
     public static void main(String[] args) {
         System.out.println(rot13("W3 ar3 in ye@r 2023$$$!äöü"));
