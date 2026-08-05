@@ -9,8 +9,5 @@
         <module name="hackerrank" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hackerrank" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>

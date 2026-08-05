@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/com/java_loops_II/SolutionImproved_v2.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/java_loops_II/SolutionImproved_v2.java" />
+              <option name="updatedContent" value="package com.java_loops_II;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.Scanner;&#10;&#10;/**&#10; * Calcula series con potencias de 2.&#10; * Versión refactorizada con separación de responsabilidades.&#10; */&#10;public class SolutionImproved_v2 {&#10;&#10;    private static final class SeriesCalculator {&#10;        /**&#10;         * Calcula la serie: a + b*2^0 + b*2^1 + b*2^2 ... b*2^(n-1)&#10;         */&#10;        static List&lt;Long&gt; calculateSeries(long initial, long multiplier, int terms) {&#10;            List&lt;Long&gt; results = new ArrayList&lt;&gt;(terms);&#10;            long sum = initial;&#10;            &#10;            for (int i = 0; i &lt; terms; i++) {&#10;                sum += multiplier * (1L &lt;&lt; i);&#10;                results.add(sum);&#10;            }&#10;            &#10;            return results;&#10;        }&#10;    }&#10;&#10;    public static void main(String[] args) {&#10;        try (Scanner scanner = new Scanner(System.in)) {&#10;            int testCases = scanner.nextInt();&#10;            &#10;            for (int i = 0; i &lt; testCases; i++) {&#10;                long a = scanner.nextLong();&#10;                long b = scanner.nextLong();&#10;                int n = scanner.nextInt();&#10;                &#10;                List&lt;Long&gt; series = SeriesCalculator.calculateSeries(a, b, n);&#10;                printSeries(series);&#10;            }&#10;        } catch (Exception e) {&#10;            System.err.println(&quot;Error al procesar entrada: &quot; + e.getMessage());&#10;        }&#10;    }&#10;&#10;    private static void printSeries(List&lt;Long&gt; series) {&#10;        for (int i = 0; i &lt; series.size(); i++) {&#10;            System.out.print(series.get(i));&#10;            if (i &lt; series.size() - 1) {&#10;                System.out.print(&quot; &quot;);&#10;            }&#10;        }&#10;        System.out.println();&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
